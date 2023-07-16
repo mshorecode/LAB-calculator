@@ -43,7 +43,7 @@ input:focus {
 }
 
 .btn {
-  flex: 1;
+  flex: .955;
   border: 1px solid black;
   background-color: #ebebeb;
   font-size: xx-large;  
@@ -70,9 +70,9 @@ input:focus {
 }
 
 .clear {
-  flex: 2.1;
+  flex: 2.07;
 }
 
 .zero {
-  flex: 3.2;
+  flex: 3.17;
 }
