@@ -1,0 +1,78 @@
+body {
+  width: 25rem;
+  margin: 25rem auto;
+}
+
+.calc {
+  display: flex;
+  width: 25rem;
+  height: 6.25rem;
+
+}
+
+.row {
+  display: flex;
+  width: 25rem;
+  height: 6.25rem;
+}
+
+.output {
+  flex: 1;
+  text-align: end;
+  background-color: black;
+  border: 1px solid black;
+  font-size: xx-large;
+  caret-color: transparent;
+  color: white;
+}
+
+/* Removes spinbox on input set to number for Chrome and Firefox */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    padding: 3px;
+}
+
+input[type=number] {
+  -moz-appearance:textfield;
+  padding: 3px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  flex: 1;
+  border: 1px solid black;
+  background-color: #ebebeb;
+  font-size: xx-large;  
+}
+
+.btn:hover {
+  background-color: #bbbcbe;
+}
+
+.c4 {
+  flex: 1;
+  background-color: #df974c;
+  border: 1px solid black;
+  font-size: xx-large;
+  color: white
+}
+
+.c4:hover {
+  background-color: #dfb07e;
+}
+
+.c4:active {
+  background-color: #dd8d37;
+}
+
+.clear {
+  flex: 2.1;
+}
+
+.zero {
+  flex: 3.2;
+}
