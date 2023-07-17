@@ -1,41 +1,35 @@
 body {
-  width: 25rem;
-  margin: 25rem auto;
+  width: 400px;
+  margin: 400px auto;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 600px;
 }
 
 .calc {
   display: flex;
-  width: 25rem;
-  height: 6.25rem;
-
+  width: 100%;
+  height: 100px;
 }
 
 .row {
   display: flex;
-  width: 25rem;
-  height: 6.25rem;
+  width: 400px;
+  height: 100px;
 }
 
-.output {
+.input {
   flex: 1;
   text-align: end;
   background-color: black;
   border: 1px solid black;
-  font-size: xx-large;
   caret-color: transparent;
+  font-size: xx-large;
   color: white;
-}
-
-/* Removes spinbox on input set to number for Chrome and Firefox */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    padding: 3px;
-}
-
-input[type=number] {
-  -moz-appearance:textfield;
-  padding: 3px;
 }
 
 input:focus {
@@ -43,7 +37,8 @@ input:focus {
 }
 
 .btn {
-  flex: .955;
+  width: 25%;
+  height: 100px;
   border: 1px solid black;
   background-color: #ebebeb;
   font-size: xx-large;  
@@ -54,7 +49,7 @@ input:focus {
 }
 
 .c4 {
-  flex: 1;
+  width: 25%;
   background-color: #df974c;
   border: 1px solid black;
   font-size: xx-large;
@@ -70,9 +65,9 @@ input:focus {
 }
 
 .clear {
-  flex: 2.07;
+  flex: 2;
 }
 
 .zero {
-  flex: 3.17;
+  flex: 3;
 }
